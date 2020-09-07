@@ -1,3 +1,3 @@
-Python
+## Python
 
-IDE: PyCharm
+IDE: PyCharm、JupyterNotebook
