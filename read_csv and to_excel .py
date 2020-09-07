@@ -1,3 +1,9 @@
+"""
+<自主學習課程_練習題>
+1． 合併所有檔，取名為Total，合併時增加一列”Province“欄位說明省份
+2． 在同一資料夾中創建”人口匯總.xlsx”檔，另外每個sheet存放導入的每一個檔+Total（一共應有6個），sheet名為表名
+"""
+
 import pandas as pd
 import numpy as np
 import os
