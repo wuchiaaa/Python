@@ -2,4 +2,4 @@
 
 IDE: PyCharm、JupyterNotebook
 
-DB: SQLite
+DB: SQLite、 MSSQL
