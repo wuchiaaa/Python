@@ -6,7 +6,7 @@ python 連線 mssql
 
 import pymssql
 
-conn = pymssql.connect(server='127.0.0.1:1433', user='wuusDB', password='31011', database='pythonDB', charset='utf8')
+conn = pymssql.connect(server='127.0.0.1:1433', user='wuusDB', password='*****', database='pythonDB', charset='utf8')
 cursor = conn.cursor()
 
 # sql = "INSERT INTO scores(name, chinese, english, math) VALUES('Amy', 90, 80, 70)"
