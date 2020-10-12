@@ -45,7 +45,7 @@ conn.close()
 # ----------------------------------------------------------
 import pymssql
 
-conn = pymssql.connect(server='127.0.0.1:1433', user='wuusDB', password='31011', database='pythondb', charset='utf8')
+conn = pymssql.connect(server='127.0.0.1:1433', user='wuusDB', password='*****', database='pythondb', charset='utf8')
 
 
 with conn.cursor() as cursor:   # 建立cursor物件
