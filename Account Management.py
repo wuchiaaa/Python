@@ -32,8 +32,7 @@ def input_data():
 def disp_data():
     sql2 = "SELECT * FROM number"
     cursor = conn.execute(sql2)
-    rows = cursor.fetchall()        # ?
-    # print(rows, type(rows))       # <class 'list'>
+    rows = cursor.fetchall()
 
     print("帳號\t密碼")
     for row in rows:
